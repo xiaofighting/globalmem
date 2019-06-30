@@ -1,0 +1,1 @@
+cmd_/home/yyd/globalmem/globalmem.ko := ld -r -m elf_x86_64 -T /usr/src/kernels/3.10.0-229.20.1.el7.x86_64/scripts/module-common.lds --build-id  -o /home/yyd/globalmem/globalmem.ko /home/yyd/globalmem/globalmem.o /home/yyd/globalmem/globalmem.mod.o
